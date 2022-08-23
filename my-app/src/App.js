@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <nav>
-        <ul style={{ display: 'center', listStyle: 'none'}}>
+        <ul style={{ display: 'flex', listStyle: 'none'}}>
         <a target='_blank' href="https://www.instagram.com/neon_house_signs/?hl=en"><img border="1" alt="Insta" src={neonLogo} width="60" height="60"></img></a>
           <li>Neon House Signs</li>
           <li onClick={() => setcurrentPage("Aboutus")}>About Us</li>
