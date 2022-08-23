@@ -10,13 +10,13 @@ function Signs() {
             <div class="row">
                 <div class="column">
                     <h3>Business and Commercial</h3>
-                    <a target='_blank' href="https://www.instagram.com/neon_house_signs/?hl=en"><img border="1" alt="signs1" src={signs1} width="200" height="200"></img></a>
+                    <a target='_blank' href="https://www.instagram.com/neon_house_signs/?hl=en"><img border="1" alt="signs1" src={signs1} width="900" height="500"></img></a>
                 </div>
             </div>
             <div class="row">
                 <div class="column">
                     <h3>Custom made LED</h3>
-                    <a target='_blank' href="https://www.instagram.com/neon_house_signs/?hl=en"><img border="1" alt="signs2" src={signs2} width="200" height="200"></img></a>
+                    <a target='_blank' href="https://www.instagram.com/neon_house_signs/?hl=en"><img border="1" alt="signs2" src={signs2} width="900" height="500"></img></a>
                 </div>
             </div>
         </div>

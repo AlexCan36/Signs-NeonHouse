@@ -32,9 +32,9 @@ function Contact() {
     };
 
     return (
-        <div>
+        <div class="hero-cta">
             <Header title="Contact Us:"/>
-            <section>
+           
                 <div>
                     <h3>Reach out for an estimate!</h3>
                     <form id="contact-form" action="https://formsubmit.co/neonhousesigns@gmail.com" method="post">
@@ -52,7 +52,10 @@ function Contact() {
                         </div>
                         <div>
                             <label for="message">Message:</label>
-                            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                            <div>
+                                <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                            </div>
+                            
                         </div>
                         {errorMessage && (
                             <div>
@@ -64,9 +67,12 @@ function Contact() {
                         </button>
                     </form>
                 </div>
-            </section>
+            
         </div>
     )
 }
+
+
+
 
 export default Contact;
