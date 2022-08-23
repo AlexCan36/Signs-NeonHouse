@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-    const [formState, setFormState] = useState({ name: '', phone:'', email: '', message: '' });
+    const [formState, setFormState] = useState({ name: '', phone: '', email: '', message: '' });
 
     const [errorMessage, setErrorMessage] = useState('');
     const { name, phone, email, message } = formState;
@@ -32,10 +32,9 @@ function Contact() {
     };
 
     return (
-        <div class="hero-cta">
-            <Header title="Contact Us:"/>
-           
-                <div>
+        <div>
+            <section class="background">
+                <div class="transbox">
                     <h3>Reach out for an estimate!</h3>
                     <form id="contact-form" action="https://formsubmit.co/neonhousesigns@gmail.com" method="post">
                         <div>
@@ -55,7 +54,7 @@ function Contact() {
                             <div>
                                 <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                             </div>
-                            
+
                         </div>
                         {errorMessage && (
                             <div>
@@ -67,8 +66,9 @@ function Contact() {
                         </button>
                     </form>
                 </div>
-            
+            </section >
         </div>
+       
     )
 }
 
