@@ -119,7 +119,7 @@ footer :hover {
 footer {
   display: flex;
   background-color: blue;
-  color: blue;
+  color: violet;
 }
 
 .footerlogo {
