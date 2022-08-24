@@ -30,8 +30,8 @@ function App() {
           <div class="column">
             <h4>Any questions or concerns?
               Let us know and we'll be happy to talk to you!
-              P:801.830.2981
-              E:NEONHOUSESIGNS@GMAIL.COM
+              📠:801.830.2981
+              📧:NEONHOUSESIGNS@GMAIL.COM
               #HablamosEspañol</h4>
           </div>
           <div class='footerlogo'>
