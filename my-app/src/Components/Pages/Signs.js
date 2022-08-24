@@ -13,7 +13,6 @@ function Signs() {
             </section>
             <div class="row">
                 <div class="column">
-
                     <a target='_blank' href="https://www.instagram.com/neon_house_signs/?hl=en"><img border="1" alt="signs1" src={signs1} width="900" height="500"></img></a>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-//import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import instaLogo from './Assets/Pics/Screenshot-logo.png';
 import neonLogo from './Assets/Pics/blacklogocircle.png';
@@ -31,7 +31,8 @@ function App() {
             <h4>Any questions or concerns?
               Let us know and we'll be happy to talk to you!
               P:801.830.2981
-              E:NEONHOUSESIGNS@GMAIL.COM</h4>
+              E:NEONHOUSESIGNS@GMAIL.COM
+              #HablamosEspañol</h4>
           </div>
           <div class='footerlogo'>
             <a target='_blank' href="https://www.instagram.com/neon_house_signs/?hl=en"><img border="1" alt="Insta" src={instaLogo} width="80" height="80"></img></a>
