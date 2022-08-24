@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import instaLogo from './Assets/Pics/Screenshot-logo.png';
 import neonLogo from './Assets/Pics/blacklogocircle.png';
